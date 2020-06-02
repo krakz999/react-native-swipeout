@@ -405,7 +405,7 @@ var Swipeout = (0, _createReactClass2.default)({
     };
     var styleContentPos = {
       content: {
-        transform: [{ translateX: this._rubberBandEasing(posX, limit) }]
+        left: this._rubberBandEasing(posX, limit)
       }
     };
 
